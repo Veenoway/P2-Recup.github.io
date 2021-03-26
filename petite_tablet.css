@@ -1,4 +1,4 @@
-@media all and (min-width: 768px) and (max-width: 1024px)
+@media all and (min-width: 768px) and (max-width: 1023px)
 {
 	#conteneur
 	{
@@ -11,11 +11,43 @@
 		align-items: center;
 		flex-basis: 100%;
 		max-width: 1024px;
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 0px;
+		margin-right: 0px;
 		margin-top: 25px;
+		margin-bottom: 3vw;
 	}
 
+
+
+	h3{
+		   font-size: 1.4em;
+	}
+
+	.contient{
+		font-size: 1.3em;
+	}
+
+	.biere{
+		font-size: 1.4;
+	}
+
+	.nav3{
+		width: 150px;
+	}
+
+	.li{
+		width: 150px;
+		text-align:center;
+	}
+
+	#navigation
+	{
+		justify-content: center;
+		margin: 0px;
+		justify-content: space-evenly;
+		margin-right: 30px;
+		width: 450px;
+	}
 
 	.filtres
 	{
@@ -47,9 +79,15 @@
 	{
 		display: flex;
 		flex-flow: column wrap;
-		flex-basis: 120%;
+		flex-basis: 100%;
+		margin-left: 0px;
 
-		margin-bottom:0px;
+		margin-bottom:20px;
+	}
+
+	.picture{
+		width: 220px;
+    	height: 185px;
 	}
 
 	.popul
@@ -59,6 +97,12 @@
 		font-size: 1.2em;
 	}
 
+	.Titreblock
+	{
+		padding-left: 25px;
+		font-size: 1.2em;
+		margin-bottom: 1.2vh;
+	}
 	.article3
 	{
 		background-color: white;
@@ -69,13 +113,26 @@
 		box-shadow: 3px 3px 15px grey;
 		margin-bottom: 40px;
 		margin-top: 30px;
-		margin-left: 25px;
+		margin-left: 0px;
 	}
 
 	.upic
 	{
 		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
+
+	.TitrePop
+{
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right:15px;
+}
+	
 
 	.article2
 	{
@@ -86,7 +143,8 @@
 		width: 95%;
 		box-shadow: 3px 3px 15px grey;
 		margin-top: 28px;
-		margin-left: 25px;
+		margin-left: 0px;
+		   margin-bottom: 0px;
 
 	}
 
@@ -99,39 +157,7 @@
 		width: 95%;
 		box-shadow: 3px 3px 15px grey;
 		margin-top: 40px;
-		margin-left: 25px;
-	}
-
-	.Textepic
-	{
-		position: absolute;
-		bottom: 26px;
-		border: 0px solid yellow;
-		left: 23px;
-		background-color: white;
-		border-radius: 0px 0px 25px 25px;
-		display: flex;
-		flex-direction: column;
-		padding-bottom: 12px;
-		padding-left: 18px;
-		padding-right: 200px;
-		padding-top: 12px;
-	}
-
-	.Textepic5
-	{
-		position: absolute;
-		bottom: 26px;
-		border: 0px solid black;
-		left: 23px;
-		background-color: white;
-		border-radius: 2px 0px 25px 25px;
-		display: flex;
-		flex-direction: column;
-		padding-bottom: 12px;
-		padding-left: 18px;
-		padding-right: 282px;
-		padding-top: 12px;
+		margin-left: 0px;
 	}
 
 	.image
@@ -145,85 +171,109 @@
 		box-shadow: 3px 3px 15px #bfbfbf;
 	}
 
+	.Textepic
+	{
+		position: absolute;
+		bottom: 5px;
+		border: 0px solid yellow;
+		left: 20px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 8px;
+		padding-left: 18px;
+		padding-right: 0px;
+		padding-top: 8px;
+		margin-right:1px;
+		width: 438px;
+	}
+
 	.Textepic2
 	{
 		position: absolute;
-		bottom: 26px;
+		bottom: 5px;
 		border: 0px solid black;
-		left: 23px;
+		left: 20px;
 		background-color: white;
 		border-radius: 0px 0px 25px 25px;
 		display: flex;
 		flex-direction: column;
-		padding-bottom: 12px;
+		padding-bottom: 8px;
 		padding-left: 18px;
-		padding-right: 242px;
-		padding-top: 12px;
-	}
-
-	.Textepic3
-	{
-		position: absolute;
-		bottom: 26px;
-		border: 0px solid black;
-		left: 23px;
-		background-color: white;
-		border-radius: 0px 0px 25px 25px;
-		display: flex;
-		flex-direction: column;
-		padding-bottom: 12px;
-		padding-left: 18px;
-		padding-right: 298px;
-		padding-top: 12px;
+		padding-right: 0px;
+		padding-top: 8px;
+		width: 438px;
 	}
 
 	.Textepic4
 	{
 		position: absolute;
-		bottom: 26px;
+		bottom: 5px;
 		border: 0px solid black;
-		left: 23px;
+		left: 20px;
+		width: 438px;
 		background-color: white;
 		border-radius: 0px 0px 25px 25px;
 		display: flex;
 		flex-direction: column;
-		padding-bottom: 12px;
+		padding-bottom: 8px;
 		padding-left: 18px;
-		padding-right: 285px;
-		padding-top: 12px;
+		padding-right: 0px;
+		padding-top: 8px;
 	}
 
 	.Textepic5
 	{
 		position: absolute;
-		bottom: 26px;
+		bottom: 5px;
 		border: 0px solid black;
-		left: 23px;
+		left: 20px;
 		background-color: white;
 		border-radius: 2px 0px 25px 25px;
 		display: flex;
 		flex-direction: column;
-		padding-bottom: 12px;
+		padding-bottom: 8px;
 		padding-left: 18px;
-		padding-right: 284px;
-		padding-top: 12px;	
+		padding-right: 0px;
+		padding-top: 8px;
+		width: 438px;
 	}
 
 	.Textepic6
 	{
 		position: absolute;
-		bottom: 26px;
+		bottom: 5px;
 		border: 0px solid black;
-		left: 23px;
+		left: 20px;
 		background-color: white;
 		border-radius: 0px 0px 25px 25px;
 		display: flex;
 		flex-direction: column;
-		padding-bottom: 12px;
+		padding-bottom: 8px;
 		padding-left: 18px;
-		padding-right: 260px;
-		padding-top: 12px;
+		padding-right: 0px;
+		padding-top: 8px;
+		width: 438px;
 	}
+
+	.Textepic3
+	{
+		position: absolute;
+		bottom: 5px;
+		border: 0px solid blue;
+		left: 20px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 8px;
+		padding-left: 18px;
+		padding-right: 1px;
+		padding-top: 8px;
+		width: 438px;
+	}
+
 
 	.firstact
 	{
@@ -258,7 +308,7 @@
 
 	.alldownpic
 	{
-		width: 350px;
+		display:none;
 	}
 
 
@@ -269,6 +319,7 @@
 		background-color: white;
 		height: 295px;
 		box-shadow: 3px 3px 15px grey;
+		width: 350px;
 	}
 
 	.inside3
@@ -279,6 +330,7 @@
 		height: 230px;
 		margin-top: 65px;
 		box-shadow: 3px 3px 15px grey;
+		width: 350px;
 	}
 
 	.inside4
@@ -289,6 +341,7 @@
 		height: 235px;
 		box-shadow: 3px 3px 15px grey;
 		margin-top: 20px;
+		width: 350px;
 	}
 
 	.inside5
@@ -297,11 +350,65 @@
 		border-radius: 25px;
 		background-color: white;
 		height: 270px;
+		width: 350px;
 		margin-top: 60px;
 		box-shadow: 3px 3px 15px grey;
 	}
+
+	.inside {
+    border: 0px solid black;
+    border-radius: 25px;
+    background-color: white;
+    height: 590px;
+    width: 350px;
+    box-shadow: 3px 3px 15px grey;
+}
+
+.texteimage {
+    font-size: 1.1em;
+}
+.texteimage2{
+    font-size: 1.1em;
+}
+.texteimage3{
+    font-size: 1.1em;
+}
 
 	.filtre
 	{
 		margin-bottom: 10px;
 	}
+
+	.texteinside
+	{
+		padding-left: 30vw;
+		padding-top: 1vw;
+	}
+
+	.description3{
+		padding-left:12px;
+	}
+
+	.star
+{
+	padding-top: 45px;
+	font-size: 1.3em;
+}
+
+p{
+	font-size: 1.3em;
+}
+
+.star1{
+	padding-top: 60px;
+}
+
+.star2{
+	padding-top: 30px;
+}
+
+.star3{
+	padding-top: 60px;
+}
+
+	

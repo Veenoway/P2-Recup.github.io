@@ -6,24 +6,22 @@
 		<title>Reservia</title>
 		<link rel="stylesheet" href=" style.css" />
 		<link rel="stylesheet" media="screen and (max-width: 767px)" href="petite_resolution.css" />
-		<link rel="stylesheet" media="all and (min-width: 1024px) and (max-width: 1366px)" href="tablet.css" />
-		<link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 1024px)" href="petite_tablet.css" />
-		
-		<link rel="stylesheet" media="screen and (min-width: 1624px)" href="computer.css" />
+		<link rel="stylesheet" media="all and (min-width: 1024px) and (max-width: 1537px)" href="tablet.css" />
+		<link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 1023px)" href="petite_tablet.css" />
 		<script src="https://kit.fontawesome.com/e30966b87e.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<header>
 			<div id="header">
 				<div class="logo">
-				<img src="images/logo/Reservia3x.png" class="logofirst" alt="logo reservia"/>
-				<nav>
-					<ul id="navigation">
-						<li><a class="active nav2" href="index.html">Hébergements</a></li>
-						<li><a class="active1 nav3" href="#">Activités</a></li>
-						<li><a class="nav1" href="#"><strong>S'inscrire</strong></a></li>
-					</ul>
-				</nav>
+					<img src="images/logo/Reservia3x.png" class="logofirst" alt="logo reservia"/>
+					<nav>
+						<ul id="navigation">
+							<li class="li"><a class="active nav2" href="index.html#conteneur">Hébergements</a></li>
+							<li class="li"><a class="active1 nav3" href="index.html#blockparent">Activités</a></li>
+							<li class="li"><a class="nav1" href="index.html#conteneur"><strong>S'inscrire</strong></a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</header>
@@ -37,15 +35,16 @@
 				<form method="post" action="traitement.php">
 					<div id="recherchebar">
 						<div class="search ">
-							<p></p>
-								<span class="logosearch">
-									<i class="fas fa-map-marker-alt"></i></span>
-								<div class="bar2recherche">
-									<input type="search" name="recherche" id="recherche"  value="Marseille, France" />
-								</div>
-								<span class="search1">
+							<div class="logosearch">
+								<i class="fas fa-map-marker-alt"></i>
+							</div>
+							<div class="bar2recherche">
+								<input type="search" name="recherche" id="recherche"  value="Marseille, France" />
+							</div>
+							<div class="search1">
 								<button class="btn">Rechercher</button>
-								<button class="button"><i class="fas fa-search"></i></button></span>	
+								<button class="button"><i class="fas fa-search"></i></button>
+							</div>	
 						</div>
 					</div>
 				</form>
@@ -59,7 +58,7 @@
 						    <strong>Economique</strong>
 					</div>
 					<div class="filtre">
-						<a href="#" class="hyperlien hl-grey">
+						<a href="#" class="hyperlien hl">
 						<div class="inblock1">
 							<i class="fas fa-child"></i>
 						</div></a>
@@ -81,8 +80,8 @@
 					</div>
 				</div>
 				<div class="info">
-					<i class="fas fa-info-circle"></i>		
-					Plus de 500 logements sont disponibles dans cette ville
+					<i class="fas fa-info-circle check"></i>		
+					<p>Plus de 500 logements sont disponibles dans cette ville</p>
 				</div>
 			</div>
 		</aside>
@@ -92,7 +91,7 @@
 					<div class="main">
 						<h2>Hébérgements à Marseille</h2>
 					</div>
-					<div class="block1">
+					<div class="block1 blockFull">
 						<a href="#" class="hyperlien">
 						<img class="image" src="images/hebergements/4_small/Auberge1.jpg" alt="pic1_350" />
 						<div class="Textepic">
@@ -108,7 +107,7 @@
 						</div>
 						</a>
 					</div>
-					<div class="block2">
+					<div class="block2 blockFull">
 						<a href="#" class="hyperlien">
 						<img class="image" src="images/hebergements/4_small/port1.jpg" alt="pic2_350" />
 						<div class="Textepic3">
@@ -124,7 +123,7 @@
 						</div>
 						</a>
 					</div>
-					<div class="block3">
+					<div class="block3 blockFull">
 						<a href="#" class="hyperlien">
 							<img class="image" src="images/hebergements/4_small/hotel1.jpg" alt="pic3_350" />
 						<div class="Textepic2">
@@ -140,7 +139,7 @@
 						</div>
 						</a>
 					</div>
-					<div class="block4">
+					<div class="block4 blockFull">
 						<a href="#" class="hyperlien">
 							<img class="image" src="images/hebergements/4_small/eau1.jpg" alt="pic4_350" />
 						
@@ -157,7 +156,7 @@
 						</div>
 						</a>
 					</div>
-					<div class="block5">
+					<div class="block5 blockFull">
 						<a href="#" class="hyperlien">
 							<img class="image" src="images/hebergements/4_small/panier1.jpg" alt="pic5_350" />
 						
@@ -174,7 +173,7 @@
 						</div>
 						</a>
 					</div>
-					<div class="block6">
+					<div class="block6 blockFull">
 						<a href="#" class="hyperlien">
 							<img class="image" src="images/hebergements/4_small/resize1.jpg" alt="pic6_350" />
 						
@@ -210,13 +209,13 @@
 						<div class="article1">
 							<a href="#" class="hyperlien">
 							<p class="float">
-								<img src="images/hebergements/4_small/ver1.jpg" class="picture" alt="rightsidePic" />
+								<img src="images/hebergements/4_small/LSDM.jpg" class="picture" alt="rightsidePic" />
 								<div class="texteinside">
 									<div class="texteimage">
 										<h3>Hotel Le soleil du matin</h3><br />
-										Nuit à partir de <strong>128€</strong>
+										<p>Nuit à partir de <strong>128€</strong></p>
 									</div>
-									<div class="star3">
+									<div class="star star1">
 										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 									</div>
 								</div>
@@ -225,13 +224,13 @@
 						<div class="article2">
 							<a href="#" class="hyperlien">
 							<p class="float">
-								<img src="images/hebergements/4_small/ge1.jpg" class="picture" alt="rightsidePic" />
+								<img src="images/hebergements/4_small/ACDL.jpg" class="picture" alt="rightsidePic" />
 								<div class="texteinside">
 									<div class="texteimage2">
 										<h3>Au coeur de l'eau<br /> Chambres d'hotes</h3><br />
-										Nuit à partir de <strong>71€</strong>
+										<p>Nuit à partir de <strong>71€</strong></p>
 									</div>
-									<div class="star2">
+									<div class="star star2">
 										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
 									</div>
 								</div>
@@ -240,13 +239,13 @@
 						<div class="article3">
 							<a href="#" class="hyperlien">
 							<p class="float">
-								<img src="images/hebergements/4_small/last.jpg" class="picture" alt="rightsidePic" />
+								<img src="images/hebergements/4_small/TBEB.jpg" class="picture" alt="rightsidePic" />
 								<div class="texteinside">
 									<div class="texteimage3">
 										<h3>Hotel Tout Bleu et Blanc</h3><br />
-										Nuit à partir de <strong>68€</strong>
+										<p>Nuit à partir de <strong>68€</strong></p>
 									</div>
-									<div class="star1">
+									<div class="star star3">
 										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
 									</div>
 								</div>
@@ -323,7 +322,7 @@
 		</aside>
 		<footer>
 			<div id="footer">
-				<div class="apropos1">
+				<div class="apropos">
 					<div class="titlefoot">
 						<h2>A propos</h2>
 					</div>
@@ -333,7 +332,7 @@
 						<li><a href="#" class="ulli">Données et confidentialité</a></li>
 					</ul>
 				</div>
-				<div class="apropos2">
+				<div class="apropos">
 					<div class="titlefoot">
 						<h2>Nos hébergements</h2>
 					</div>
@@ -342,11 +341,11 @@
 						<li><a href="#" class="ulli">Soumettre votre hotel</a></li>
 					</ul>
 				</div>
-				<div class="apropos3" >
+				<div class="apropos" >
 					<div class="titlefoot">
 						<h2>Assistance</h2>
 					</div>
-					<ul class="lap1">
+					<ul class="lap1 lap2">
 						<li><a href="#" class="ulli">Centre d'aide</a></li>
 						<li><a href="#" class="ulli">Nous contacter</a></li>
 					</ul>

@@ -1,8 +1,7 @@
-
 @font-face {
     font-family: 'ralewaythin';
-    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-variablefont_wght-webfont.woff') format('woff');
+    src: url('fonts/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,14 +13,17 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	background-color: white;
+	width: 100%;
 }
 
 #navigation
 {
 	display: flex;
-	justify-content: space-around;
 	background-color: white;
-	width: 440px;
+	margin: 0px;
+	justify-content: space-evenly;
+	margin-right: 30px;
+	width: 450px;
 	height: 100px;
 	align-items: baseline;
 	list-style: none;
@@ -125,7 +127,7 @@
 .btn 
 {
 	background-color: #0065FC;
-	padding: 12px 21px 12px 21px;
+	padding: 13px 21px 13px 21px;
 	border: 0px solid black;
 	border-radius: 0px 15px 15px 0px;
 	margin: 0px;
@@ -181,11 +183,17 @@
 	flex-wrap: wrap;
 }
 
+.check{
+	margin-right:15px;
+}
+
 .titrefiltre
 {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	font-size: 1.3em;
+	margin-bottom: 5px;
 }
 
 #conteneur
@@ -199,16 +207,18 @@
 	align-items: center;
 	flex-basis:65%;
 	max-width: 1500px;
+	height: auto;
+	width: ;
 	margin-left: 25px;
 	margin-right: 15px;
-	margin-top: 25px;
+	margin-top: 0px;
 }
 
 #recherche
 {
 	text-decoration: none;
 	border: none;
-	padding-left: 20px;
+	padding-left: 0px;
 	padding-right: 0px;
 	font-weight: bold;
 	font-size: 1em;
@@ -218,8 +228,10 @@
 {
 	width:100%;
 	padding-left: 3%;
-	padding-top: 50px;
-	padding-bottom: 15px;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	font-size: 1.2em;
+	margin-bottom: 10px;
 }
 
 .image
@@ -227,8 +239,8 @@
 	border: 3px solid white;
 	border-radius: 35px;
 	margin: 20px;
-	width: 350px;
-	min-width: 250px;
+	width: 18.2vw;
+	height: auto;
 	box-shadow: 3px 3px 15px #bfbfbf;
 }
 
@@ -242,6 +254,7 @@
 .main1
 {
 	flex-basis: 100%;
+	width
 	padding: 12px;
 	padding-left: 3%;
 	padding-bottom: 30px;
@@ -253,6 +266,7 @@ article
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 .logosearch
@@ -279,7 +293,7 @@ article
 .bar2recherche
 {
 	background-color: white;
-	flex-basis: 45%;
+	
 	display: flex;
 	padding-top: 2px;
 	padding-bottom: 2px
@@ -292,7 +306,7 @@ article
 	border-radius: 40px 40px 40px 40px;
 	margin-right: 10px;
 	margin-bottom: 0px;
-	padding: 14px 16px 14px 18px;
+	padding: 15px 18px 14px 18px;
 }
 
 .Titre
@@ -300,11 +314,6 @@ article
 	padding: 25px;
 	padding-top: 10px;
 	background-color: white;
-}
-
-.info
-{
-	padding-left: 25px;
 }
 
 .block1
@@ -338,84 +347,114 @@ article
 }
 
 .Textepic
-{
-	position: absolute;
-	bottom: 26px;
-	border: 0px solid yellow;
-	left: 23px;
-	background-color: white;
-	border-radius: 0px 0px 25px 25px;
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 12px;
-	padding-left: 18px;
-	padding-right: 98px;
-	padding-top: 12px;
-}
+	{
+		position: absolute;
+		bottom: 5px;
+		border: 0px solid yellow;
+		left: 20px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 8px;
+		padding-left: 0.68vw;
+		padding-right: 0px;
+		padding-top: 8px;
+		margin-right:1px;
+		width: 17.62vw;
+		border: 2px solid white;
+	}
 
-.Textepic2
-{
-	position: absolute;
-	bottom: 26px;
-	border: 0px solid black;
-	left: 23px;
-	background-color: white;
-	border-radius: 0px 0px 25px 25px;
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 12px;
-	padding-left: 18px;
-	padding-right: 142px;
-	padding-top: 12px;
-}
+	.Textepic2
+	{
+		position: absolute;
+		bottom: 5px;
+		border: 0px solid black;
+		left: 20px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 8px;
+		padding-left: 0.68vw;
+		padding-right: 0px;
+		padding-top: 8px;
+		width: 17.64vw;
+		border: 2px solid white;
+	}
 
-.Textepic4
-{
-	position: absolute;
-	bottom: 26px;
-	border: 0px solid black;
-	left: 23px;
-	background-color: white;
-	border-radius: 0px 0px 25px 25px;
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 12px;
-	padding-left: 18px;
-	padding-right: 183px;
-	padding-top: 12px;
-}
+	.Textepic4
+	{
+		position: absolute;
+		bottom: 5px;
+		border: 0px solid black;
+		left: 20px;
+		width: 17.62vw;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 8px;
+		padding-left: 0.68vw;
+		padding-right: 0px;
+		padding-top: 8px;
+		border: 2px solid white;
+	}
 
-.Textepic5
-{
-	position: absolute;
-	bottom: 26px;
-	border: 0px solid black;
-	left: 23px;
-	background-color: white;
-	border-radius: 2px 0px 25px 25px;
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 12px;
-	padding-left: 18px;
-	padding-right: 180px;
-	padding-top: 12px;	
-}
+	.Textepic5
+	{
+		position: absolute;
+		bottom: 5px;
+		border: 0px solid black;
+		left: 20px;
+		background-color: white;
+		border-radius: 2px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 8px;
+		padding-left: 0.68vw;
+		padding-right: 0px;
+		padding-top: 8px;
+		width: 17.62vw;
+		border: 2px solid white;
+	}
 
-.Textepic6
-{
-	position: absolute;
-	bottom: 26px;
-	border: 0px solid black;
-	left: 23px;
-	background-color: white;
-	border-radius: 0px 0px 25px 25px;
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 12px;
-	padding-left: 18px;
-	padding-right: 160px;
-	padding-top: 12px;	
-}
+	.Textepic6
+	{
+		position: absolute;
+		bottom: 5px;
+		border: 0px solid black;
+		left: 20px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 8px;
+		padding-left: 0.68vw;
+		padding-right: 0px;
+		padding-top: 8px;
+		width: 17.64vw;
+		border: 2px solid white;
+	}
+
+	.Textepic3
+	{
+		position: absolute;
+		bottom: 5px;
+		border: 0px solid blue;
+		left: 20px;
+		background-color: white;
+		border-radius: 0px 0px 25px 25px;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 8px;
+		padding-left: 0.68vw;
+		padding-right: 1px;
+		padding-top: 8px;
+		width: 17.58vw;
+		height: auto;
+		border: 2px solid white;
+	}
 
 .afficherplus
 {
@@ -445,50 +484,26 @@ article
 	padding-bottom: 10px;
 }
 
-.Textepic3
-{
-	position: absolute;
-	bottom: 26px;
-	border: 0px solid blue;
-	left: 21px;
-	background-color: white;
-	border-radius: 0px 0px 25px 25px;
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 12px;
-	padding-left: 18px;
-	padding-right: 199px;
-	padding-top: 12px;
-}
-
 .hdp
 {
 	padding-bottom: 10px;
 	padding-top: 5px;
 }
 
-.star1
+.star
 {
 	padding-top: 45px;
+	font-size: 1vw;
 }
 
-.star2
-{
-	padding-top: 45px;
-}
-
-.star3
-{
-	padding-top: 45px;
-}
 
 .article1
 {
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 25px;
-	height: 185px;
-	width: 480px;
+	height: 10vw;
+	width: 23vw; 
 	box-shadow: 3px 3px 15px grey;
 	margin-top: 15px;
 }
@@ -498,13 +513,20 @@ article
 	float: left;
 }
 
+.upic{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .article2
 {
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 25px;
-	height: 185px;
-	width: 480px;
+	height: 10vw;
+	width: 23vw;
 	box-shadow: 3px 3px 15px grey;
 	margin-top: 28px;
 	margin-bottom: 30px;
@@ -515,8 +537,8 @@ article
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 25px;
-	height: 185px;
-	width: 480px;
+	height: 10vw;
+	width: 23vw;
 	box-shadow: 3px 3px 15px grey;
 	margin-bottom: 40px;
 }
@@ -529,19 +551,21 @@ article
 	background-color: #F2F2F2;
 	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 	flex-basis:30%;
+	height: auto;
 	max-width: 1500px;
-	margin-left: 20px;
-	margin-right: 15px;
-	margin-top: 25px;
+	margin-left: 1.2vw;
+	margin-right: 0px;
+	margin-top: 0px;
 	border: 0px solid black;
 	border-radius: 35px;	
 }
 
 .texteinside
 {
-	padding-left: 250px;
-	padding-top: 20px;
+	padding-left: 10.5vw;
+	padding-top: 1vw;
 }
 
 .TitrePop
@@ -549,15 +573,19 @@ article
 	display: flex;
 	width: 90%;
 	justify-content: space-between;
-	padding-left: 15px;
+	padding-left: 25px;
 	padding-right:15px;
+	font-size: 1.2em;
 }
 
 .picture
 {	
 	border: 0px solid black;
 	border-radius: 22px 0 0 22px;	
+	width: 10vw;
+	height: 10vw;
 }
+
 
 .fa-map-marker-alt
 {
@@ -573,6 +601,7 @@ article
 .fa-child
 {
 	color: #0065FC;
+	pâdd
 }
 
 .fa-heart
@@ -590,7 +619,7 @@ article
 .article
 {	
 	padding-left: 0px;
-	width: 470px;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -605,13 +634,11 @@ article
 	font-size: 1.2em;
 }
 
-.fa-chart-line
-{
+.fa-chart-line{
 	font-size: 1.5em;
 }
 
-#footer
-{
+#footer{
 	background-color: #F2F2F2;
 	display: flex;
 	flex-flow: row wrap;
@@ -620,46 +647,37 @@ article
 	margin-top: 70px;	
 }
 
-ul li 
-{
+ul li {
 	text-decoration: none;
-	list-style: none;
-	
+	list-style: none;	
 }
 
-ul li a.active
-{
+ul li a.active{
 	border-top: 4px solid #0065FC;
 	padding-left:10px;
 	padding-right:10px;
 }
 
-ul li a.active1
-{
+ul li a.active1{
 	border-top: 4px solid #F2F2F2; 
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:30px;
+	padding-right:30px;
 }
 
-.active:active
-{
+.active:active{
 	border-top: 4px solid #0065FC; 
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:30px;
+	padding-right:30px;
 }
 
-.active1:hover
-{
+.active1:hover{
 	border-top: 4px solid #F2F2F2; 
-	padding-left:10px;
-	padding-right:10px;
 }
 
-.active1:active
-{
+.active1:active{
 	border-top: 4px solid #0065FC; 
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:30px;
+	padding-right:30px;
 }
 
 
@@ -708,8 +726,9 @@ ul li a.active1
 {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	width: 440px;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	width: 100%;
 }
 
 .star
@@ -735,7 +754,19 @@ i.grey
 
 h3
 {
-	font-size: 1.3em;
+	font-size: 1.1vw;
+}
+
+.texteimage{
+	font-size: 1vw;
+}
+
+.texteimage2{
+	font-size: 1vw;
+}
+
+.texteimage3{
+	font-size: 1vw;
 }
 
 #blockparent
@@ -794,9 +825,9 @@ h3
 	padding-bottom: 15px;
 	border: 0px solid black;
 	border-radius: 0px 0px 25px 25px;
-
-
 }
+
+
 
 .inside2
 {
@@ -844,6 +875,7 @@ h3
 .Titreblock
 {
 	padding-left: 25px;
+	font-size: 1.2em;
 }
 
 .logofirst
@@ -918,4 +950,16 @@ h3
 .lespluspop:hover
 {
 	color: #0065FC;
+}
+
+	.star1{
+	padding-top: 70px;
+}
+
+.star2{
+	padding-top: 50px;
+}
+
+.star3{
+	padding-top: 70px;
 }
