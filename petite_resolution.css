@@ -113,11 +113,12 @@
 		width: 120px;	
 		height: 150px;
 		object-fit: cover;
+		margin-right: 10px;
 		
 	}
 
 	.upic{
-		
+		order:1;
 
 	}
 	.article1
@@ -248,7 +249,7 @@
 		width: 94%;
 		max-width: 800px;
 		height: 100px;
-		margin-top: 141px;
+		margin-top: 122px;
 	}
 
 	#footer
@@ -369,11 +370,11 @@
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 18px;
+		padding-left: 4vw;
 		padding-right: 0px;
 		padding-top: 8px;
 		margin-right:-8px;
-		width: 89.5vw;
+		width: 90vw;
 	}
 
 	.Textepic2
@@ -387,10 +388,10 @@
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 18px;
+		padding-left: 4vw;
 		padding-right: 0px;
 		padding-top: 8px;
-		width: 89.5vw;
+		width: 90vw;
 	}
 
 	.Textepic4
@@ -399,13 +400,13 @@
 		bottom: 5px;
 		border: 0px solid black;
 		left: 0px;
-		width: 89.5vw;
+		width: 90vw;
 		background-color: white;
 		border-radius: 0px 0px 25px 25px;
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 18px;
+		padding-left: 4vw;
 		padding-right: 0px;
 		padding-top: 8px;
 	}
@@ -421,10 +422,10 @@
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 18px;
+		padding-left: 4vw;
 		padding-right: 0px;
 		padding-top: 8px;
-		width: 89.5vw;
+		width: 90vw;
 	}
 
 	.Textepic6
@@ -438,10 +439,10 @@
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 18px;
+		padding-left: 4vw;
 		padding-right: 0px;
 		padding-top: 8px;
-		width: 89.5vw;
+		width: 90vw;
 	}
 
 	.Textepic3
@@ -455,10 +456,10 @@
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 18px;
+		padding-left: 4vw;
 		padding-right: 0px;
 		padding-top: 8px;
-		width: 89.5vw;
+		width: 90vw;
 	}
 
 	h1{
@@ -687,6 +688,8 @@
 .texteimage{
 	font-size: 1em;
     margin-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .texteimage2{
@@ -708,7 +711,7 @@
 	}
 
 		.star1{
-	padding-top: 15px;
+	padding-top: 35px;
 }
 
 .star2{
@@ -716,5 +719,5 @@
 }
 
 .star3{
-	padding-top: 15px;
+	padding-top: 35px;
 }

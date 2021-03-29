@@ -15,6 +15,7 @@
 		margin-right: 0px;
 		margin-top: 25px;
 		margin-bottom: 3vw;
+		order:2;
 	}
 
 
@@ -88,6 +89,7 @@
 	.picture{
 		width: 220px;
     	height: 185px;
+    	margin-right:10px;
 	}
 
 	.popul
@@ -381,7 +383,6 @@
 
 	.texteinside
 	{
-		padding-left: 30vw;
 		padding-top: 1vw;
 	}
 
