@@ -382,9 +382,12 @@
 	}
 
 	.texteinside
-	{
-		padding-top: 1px;
-	}
+{
+	height: 180px;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
 
 	.description3{
 		padding-left:12px;
@@ -401,4 +404,6 @@ p{
 }
 
 
-	
+	.star_pop{
+		padding:0px;
+	}

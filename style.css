@@ -573,8 +573,13 @@ article
 
 .texteinside
 {
-	padding-top: 2px;
+	height: 150px;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-between;
 }
+
+
 
 .TitrePop
 {
@@ -750,7 +755,7 @@ ul li a.active1{
 }
 
 .star_pop{
-	padding-top: 60px;
+	padding-top: 0px;
 }
 
 .star_acdl{
