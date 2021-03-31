@@ -330,6 +330,14 @@
 		color: black;
 	}
 
+	.texteinside
+	{
+		padding-left: 125px;
+		padding-top: 1.8vw;
+		height: 10vh;
+    	width: 54vw;
+	}
+
 	.ulli
 	{
 		text-decoration: none;
