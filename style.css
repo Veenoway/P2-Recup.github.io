@@ -485,6 +485,7 @@ article
 {
 	padding-top: 5px;
 	padding-bottom: 10px;
+	font-size: 1em;
 }
 
 .hdp
@@ -496,7 +497,7 @@ article
 .star
 {
 	padding-top: 45px;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 
@@ -774,7 +775,7 @@ i.grey
 
 h3
 {
-	font-size: 1.1vw;
+	font-size: 1.1em;
 }
 
 
