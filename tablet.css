@@ -17,6 +17,7 @@
 		margin-right: 0px;
 		margin-top: 25px;
 		margin-bottom: 3vh;
+		order: 2;
 	}
 
 
@@ -86,6 +87,7 @@
 	.picture{
 		width: 220px;
     	height: 185px;
+    	margin-right:10px;
 	}
 
 	#sarticle
@@ -95,6 +97,7 @@
 		flex-basis: 100%;
 		margin-left: 0px;
 		margin-bottom:0px;
+		order:1;
 	}
 
 
@@ -279,8 +282,8 @@
 
 .texteinside
 {
-	padding-left: 250px;
-	padding-top: 20px;
+	
+	padding-top: 10px;
 }
 
 #recherche
@@ -322,8 +325,8 @@ h2{
 
 .star
 {
-	padding-top: 20px;
-	font-size: 1em;
+	padding-top: 45px;
+	font-size: 1.3em;
 }
 
 	.firstact
@@ -355,18 +358,6 @@ h2{
 	{
 		height: 1330px;
 	}
-
-	.star1{
-	padding-top: 60px;
-}
-
-.star2{
-	padding-top: 30px;
-}
-
-.star3{
-	padding-top: 60px;
-}
 
 
 

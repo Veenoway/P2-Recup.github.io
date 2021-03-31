@@ -383,7 +383,7 @@
 
 	.texteinside
 	{
-		padding-top: 1vw;
+		padding-top: 10px;
 	}
 
 	.description3{
@@ -400,16 +400,5 @@ p{
 	font-size: 1.3em;
 }
 
-.star1{
-	padding-top: 60px;
-}
-
-.star2{
-	padding-top: 30px;
-}
-
-.star3{
-	padding-top: 60px;
-}
 
 	

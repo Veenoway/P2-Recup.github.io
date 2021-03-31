@@ -210,9 +210,8 @@ h1{
 	justify-content: space-around;
 	align-items: center;
 	flex-basis:65%;
-	max-width: 1500px;
 	height: auto;
-	width: ;
+	width: 65%;
 	margin-left: 25px;
 	margin-right: 15px;
 	margin-top: 0px;
@@ -243,8 +242,8 @@ h1{
 	border: 3px solid white;
 	border-radius: 35px;
 	margin: 20px;
-	width: 18.2vw;
-	height: auto;
+	width: 320px;
+    height: 250px;
 	box-shadow: 3px 3px 15px #bfbfbf;
 }
 
@@ -361,11 +360,11 @@ article
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 0.68vw;
+		padding-left: 10px;
 		padding-right: 0px;
 		padding-top: 8px;
 		margin-right:1px;
-		width: 17.62vw;
+		width: 312px;
 		border: 2px solid white;
 	}
 
@@ -380,10 +379,10 @@ article
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 0.68vw;
+		padding-left: 10px;
 		padding-right: 0px;
 		padding-top: 8px;
-		width: 17.64vw;
+		width: 312px;
 		border: 2px solid white;
 	}
 
@@ -393,13 +392,13 @@ article
 		bottom: 5px;
 		border: 0px solid black;
 		left: 20px;
-		width: 17.62vw;
+		width: 312px;
 		background-color: white;
 		border-radius: 0px 0px 25px 25px;
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 0.68vw;
+		padding-left: 10px;
 		padding-right: 0px;
 		padding-top: 8px;
 		border: 2px solid white;
@@ -416,10 +415,10 @@ article
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 0.68vw;
+		padding-left: 10px;
+		width: 312px;
 		padding-right: 0px;
 		padding-top: 8px;
-		width: 17.62vw;
 		border: 2px solid white;
 	}
 
@@ -434,10 +433,10 @@ article
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 0.68vw;
+		padding-left: 10px;
+		width: 312px;
 		padding-right: 0px;
 		padding-top: 8px;
-		width: 17.64vw;
 		border: 2px solid white;
 	}
 
@@ -452,10 +451,10 @@ article
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 8px;
-		padding-left: 0.68vw;
+		padding-left: 10px;
 		padding-right: 1px;
 		padding-top: 8px;
-		width: 17.58vw;
+		width: 312px;
 		height: auto;
 		border: 2px solid white;
 	}
@@ -497,7 +496,7 @@ article
 .star
 {
 	padding-top: 45px;
-	font-size: 1vw;
+	font-size: 1.1em;
 }
 
 
@@ -506,10 +505,15 @@ article
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 25px;
-	height: 10vw;
-	width: 23vw; 
+	height: 160px;
+    width: 420px;
 	box-shadow: 3px 3px 15px grey;
 	margin-top: 15px;
+}
+
+.section{
+	display:flex;
+	flex-flow:row wrap;
 }
 
 .float
@@ -529,8 +533,8 @@ article
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 25px;
-	height: 10vw;
-	width: 23vw;
+	height: 160px;
+    width: 420px;
 	box-shadow: 3px 3px 15px grey;
 	margin-top: 28px;
 	margin-bottom: 30px;
@@ -541,8 +545,8 @@ article
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 25px;
-	height: 10vw;
-	width: 23vw;
+	height: 160px;
+    width: 420px;
 	box-shadow: 3px 3px 15px grey;
 	margin-bottom: 40px;
 }
@@ -553,8 +557,8 @@ article
 	display: flex;
 	flex-direction: column;
 	background-color: #F2F2F2;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	flex-basis:30%;
 	height: auto;
@@ -568,8 +572,7 @@ article
 
 .texteinside
 {
-	padding-left: 10.5vw;
-	padding-top: 1vw;
+	padding-top: 10px;
 }
 
 .TitrePop
@@ -582,12 +585,16 @@ article
 	font-size: 1.2em;
 }
 
+.pop_title{
+	font-size: 1.2em;
+}
 .picture
 {	
 	border: 0px solid black;
 	border-radius: 22px 0 0 22px;	
-	width: 10vw;
-	height: 10vw;
+	width: 150px;
+	height: 160px;
+	margin-right: 10px;
 }
 
 
@@ -733,11 +740,20 @@ ul li a.active1{
 	justify-content: flex-start;
 	flex-wrap: nowrap;
 	width: 100%;
+	margin-bottom: 15px;
 }
 
 .star
 {
 	padding-top: 10px;
+}
+
+.star_pop{
+	padding-top: 60px;
+}
+
+.star_acdl{
+	padding-top: 40px;
 }
 
 .biere
@@ -761,17 +777,7 @@ h3
 	font-size: 1.1vw;
 }
 
-.texteimage{
-	font-size: 1vw;
-}
 
-.texteimage2{
-	font-size: 1vw;
-}
-
-.texteimage3{
-	font-size: 1vw;
-}
 
 #blockparent
 {
@@ -956,14 +962,3 @@ h3
 	color: #0065FC;
 }
 
-	.star1{
-	padding-top: 70px;
-}
-
-.star2{
-	padding-top: 50px;
-}
-
-.star3{
-	padding-top: 70px;
-}
